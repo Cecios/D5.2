@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+header{
+    color: palevioletred;
+    text-align: center;
+}
+.bottoni{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.card img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.input{
+    text-align: center;
+    padding-top: 20px;
+    width: 40%;
+    margin-inline: auto;
+}
+.input textarea{
+    color: grey;
+}
+footer{
+    background: linear-gradient(120deg,#c18d45, #3cb101);
+    text-align: center;
+}
+footer h2{
+    padding-top: 17px;
+}
+.links{
+    color: red;
+}
+.visibility{
+    visibility: hidden;
+    /* display:none; */
+}
